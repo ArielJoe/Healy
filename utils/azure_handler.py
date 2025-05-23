@@ -1,8 +1,5 @@
 import os
 from openai import AzureOpenAI
-from dotenv import load_dotenv
-
-load_dotenv()
 
 class AzureClient:
     def __init__(self):

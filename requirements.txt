@@ -1,2 +1,9 @@
 openai
 dotenv
+streamlit
+streamlit_cookies_manager
+bcrypt
+uuid
+datetime
+json
+os
