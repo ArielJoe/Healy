@@ -233,8 +233,10 @@ if st.session_state.logged_in:
         # Add assistant response to chat history
         st.session_state.messages.append({"role": "assistant", "content": response})
 else:
-    st.title("Welcome to Healy!")
+    st.title("AI Fitness Advisor")
     st.markdown("""
+        ## Welcome to Healy!
+        
         Please login or register in the sidebar to get personalized fitness advice.
         
         Features:
