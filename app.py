@@ -1,6 +1,6 @@
 import streamlit as st
 from modules.healy import Healy
-from azure.cosmos import CosmosClient, exceptions
+from azure.cosmos import CosmosClient
 from dotenv import load_dotenv
 from streamlit_cookies_manager import EncryptedCookieManager
 import os
