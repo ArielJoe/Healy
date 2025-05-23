@@ -3,3 +3,4 @@ dotenv
 streamlit
 streamlit_cookies_manager
 bcrypt
+azure-cosmos
